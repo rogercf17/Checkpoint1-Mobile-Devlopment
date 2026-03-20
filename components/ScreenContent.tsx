@@ -1,27 +1,18 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
+import { InputComponent } from './InputComponent';
+import { ForgotPasswordComponent } from './ForgotPasswordComponent';
+import { ButtonLoginComponent } from './ButtonLoginComponent';
+import { ImageComponent } from './ImageComponent';
 
-import { EditScreenInfo } from './EditScreenInfo';
-
-interface ScreenContentProps {
-  title: string;
-  path: string;
-  children?: React.ReactNode;
-}
-
-export const ScreenContent: React.FC<ScreenContentProps> = ({ title, path, children }) => {
+export const ScreenContent = () => {
   return (
-    <View className={styles.container}>
-      <Text className={styles.title}>{title}</Text>
-      <View className={styles.separator} />
-      <EditScreenInfo path={path} />
-      {children}
+    <View className='w-full items-center flex-1 justify-center bg-black'>
+      <ImageComponent />
+      <InputComponent type='text' placeholder='Digite seu usuário' />
+      <InputComponent type='senha' placeholder='Digite sua senha' />
+      <ButtonLoginComponent />
+      <ForgotPasswordComponent />
     </View>
   );
-};
-
-const styles = {
-  container: `items-center flex-1 justify-center bg-white`,
-  separator: `h-[1px] my-7 w-4/5 bg-gray-200`,
-  title: `text-xl font-bold`,
 };

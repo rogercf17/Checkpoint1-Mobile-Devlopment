@@ -101,4 +101,4 @@ Checkpoint1-Mobile-Devlopment/
 ---
 
 ## Print da Tela Desenvolvida
-![Tela de Login](./assets/screenshot-login.png)
+<img src="./assets/screenshot-login.png" width="300" />

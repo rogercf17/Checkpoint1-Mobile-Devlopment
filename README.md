@@ -54,7 +54,7 @@ pela disciplina (texto, input, botão, imagem), seguindo o padrão de projeto de
 ### Passos 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/Checkpoint1-Mobile-Devlopment.git
+git clone https://github.com/rogercf17/Checkpoint1-Mobile-Devlopment.git
  
 # 2. Entre na pasta do projeto
 cd Checkpoint1-Mobile-Devlopment

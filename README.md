@@ -94,9 +94,7 @@ Checkpoint1-Mobile-Devlopment/
 ## Equipe 
 | Nome | RM |
 |---|---|
-| João Pedro Signor Avelar | RM 558375 |
 | Roger Cardoso Ferreira | RM 557230 |
-| _(nome do integrante 3)_ | RM XXXXX |
 
 ---
 
